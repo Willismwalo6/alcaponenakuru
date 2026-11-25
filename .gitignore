@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+build
+next-env.d.ts
+*.tsbuildinfo
+
+# Local env and logs
+.env
+.env.local
+.env*.local
+*.log
+probe
+
+# keep the env template in version control
+!.env.example
